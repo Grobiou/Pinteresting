@@ -43,6 +43,10 @@ gem 'bootstrap-sass'
 # Use bootstrap
 gem 'devise', '~> 3.3.0'
 
+gem 'paperclip', github: 'thoughtbot/paperclip'
+
+gem 'aws-sdk' #, '~> 2.0.0'
+
 # Use sqlite3 as the database for development and test environments
 group :development, :test do
 	gem 'sqlite3'
@@ -55,4 +59,3 @@ end
 
 # Use bootstrap
 # gem 'paperclip', '~> 3.0'
-gem 'paperclip', github: 'thoughtbot/paperclip'
