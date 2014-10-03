@@ -52,3 +52,7 @@ group :production do
 	gem 'pg'
 	gem 'rails_12factor'
 end
+
+# Use bootstrap
+# gem 'paperclip', '~> 3.0'
+gem 'paperclip', github: 'thoughtbot/paperclip'
