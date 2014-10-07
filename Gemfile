@@ -46,6 +46,9 @@ gem 'devise', '~> 3.3.0'
 gem 'paperclip', github: 'thoughtbot/paperclip'
 
 gem 'aws-sdk' #, '~> 2.0.0'
+gem 'jquery-turbolinks'
+gem 'masonry-rails' #, '~> 2.0.0'
+
 
 # Use sqlite3 as the database for development and test environments
 group :development, :test do
