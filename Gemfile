@@ -3,39 +3,23 @@ source 'https://rubygems.org'
 ruby '2.0.0'
 
 
-# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
-# Use SCSS for stylesheets
+
 gem 'sass-rails', '~> 4.0.0'
-# Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
-# Use CoffeeScript for .js.coffee assets and views
 gem 'coffee-rails', '~> 4.0.0'
-# See https://github.com/sstephenson/execjs#readme for more supported runtimes
-# gem 'therubyracer',  platforms: :ruby
-
-# Use jquery as the JavaScript library
-gem 'jquery-rails' #, '~> 3.1.2'
-# Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
+gem 'jquery-rails'
 gem 'turbolinks'
-gem 'jquery-turbolinks', '~> 2.1.0'
-# Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
+gem 'jquery-turbolinks'
 gem 'jbuilder', '~> 1.2'
-# Use bootstrap
-gem 'bootstrap-sass'
-
-# Use bootstrap
-gem 'devise', '~> 3.3.0'
-
-gem 'paperclip' #, github: 'thoughtbot/paperclip'
-
-gem 'aws-sdk', '~> 1.20.0'
-
-gem 'masonry-rails', '0.2.1'
+gem 'bootstrap-sass', '~> 3.0.3.0'
+gem 'devise', '~> 3.1.0.rc2'
+gem 'paperclip', '~> 3.0'
+gem 'aws-sdk', '~> 1.16.1'
+gem 'masonry-rails', '~> 0.2.0'
 
 
-# bundle exec rake doc:rails generates the API under doc/api.
-gem 'sdoc', '~> 0.4.1',          group: :doc
+
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
@@ -64,5 +48,6 @@ group :production do
 	gem 'rails_12factor'
 end
 
-# Use bootstrap
-# gem 'paperclip', '~> 3.0'
+
+# bundle exec rake doc:rails generates the API under doc/api.
+gem 'sdoc', '~> 0.4.1',          group: :doc
