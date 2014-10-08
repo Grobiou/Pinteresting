@@ -27,7 +27,7 @@ gem 'bootstrap-sass', '~> 3.2.0.2'
 # Use bootstrap
 gem 'devise', '~> 3.3.0'
 
-gem 'paperclip', github: 'thoughtbot/paperclip'
+gem 'paperclip' #, github: 'thoughtbot/paperclip'
 
 gem 'aws-sdk' #, '~> 2.0.0'
 
